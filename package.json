@@ -11,14 +11,15 @@
     "react-scripts": "3.4.3",
     "react-spring": "^9.0.0-rc.3"
   },
+  "devDependencies": {
+    "@rescripts/cli": "^0.0.14"
+  },
   "resolutions": {
     "webpack": "^4.44.1"
   },
   "scripts": {
-    "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
-    "build": "SKIP_PREFLIGHT_CHECK=true react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "SKIP_PREFLIGHT_CHECK=true rescripts start",
+    "build": "SKIP_PREFLIGHT_CHECK=true rescripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
